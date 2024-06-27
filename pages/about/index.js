@@ -19,10 +19,12 @@ import Circles from "./../../components/Circles";
 import Avatar from "./../../components/Avatar";
 import { fadeIn } from "./../../variants";
 import { TypeAnimation } from "react-type-animation";
+import ParticlesContainer from './../../components/ParticlesContainer';
 
 const About = () => {
   return (
     <div className="h-full bg-primary/30 py-16 text-center xl:text-left ">
+      <ParticlesContainer/>
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
